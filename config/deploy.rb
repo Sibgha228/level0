@@ -4,7 +4,7 @@
 server '104.42.114.84', roles: [:web, :app, :db], primary: true
 
 # Change the YOUR_GITHUB_NAME to your github user name
-set :repo_url,        'git@github.com:sibgha/level0.git'
+set :repo_url,        'git@github.com:Sibgha228/level0.git'
 set :application,     'level0'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
@@ -66,4 +66,4 @@ end
 # ps aux | grep puma    # Get puma pid
 # kill -s SIGUSR2 pid   # Restart puma
 # kill -s SIGTERM pid   # Stop puma
-view rawcap-puma-nginx-rails-config-deploy.rb hosted with ❤ by GitHub
+#view rawcap-puma-nginx-rails-config-deploy.rb hosted with ❤ by GitHub
