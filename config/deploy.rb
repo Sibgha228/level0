@@ -59,6 +59,7 @@ namespace :deploy do
 
   before :starting,     :check_revision
   after  :finishing,    :symlink_secrets
+  after  :finishing,    :compile_assets
   after  :finishing,    :cleanup
 end
 
